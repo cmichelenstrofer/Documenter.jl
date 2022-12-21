@@ -349,7 +349,7 @@ assumes are located under `docs/src`. This can be configured or disabled with th
 keyword (see [`doctest`](@ref) for more information).
 
 It can also be included in another testset, in which case it gets incorporated into the
-parent testset. So, as another example, to test a package that does have separate manual
+parent testset. So, as another example, to test a package that does not have separate manual
 pages, just docstrings, and also collects all the tests into a single testset, the
 `runtests.jl` might look as follows:
 
